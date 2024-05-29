@@ -1,0 +1,108 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    align-items:center;
+}
+.judul {
+    margin-top: 20px;
+}
+.sub-judul {
+    margin: 10px;
+    font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(189, 72, 249);
+  
+}
+.judul1 {
+    margin: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+}
+.container{
+    display:flex;
+}
+.garis {
+    background-color: rgb(189, 72, 249);
+    height: 1px;
+}
+body {
+    background-color: rgb(5, 5, 5);
+}
+
+.wrapper .container .images{
+    display: flex;
+    width: 100px;
+}
+.wrapper .images .img1, .img2, .img3, .img4{
+    filter: grayscale(100);
+    width: 200px;
+    transition-duration: 0.2s;
+}
+.wrapper .images .img1:hover, .img2:hover, .img3:hover, .img4:hover {
+    filter: grayscale(0);
+    
+    display: flex;
+    align-items: center;    
+    .teks1, .teks2, .teks3, .teks4 {
+        visibility: visible;
+        align-items: center;
+        display: flex;
+    }
+    }
+.wrapper .images{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 85px;
+}
+.wrapper .images img{
+    width: 200px;
+   
+}
+.teks1, .teks2, .teks3, .teks4{
+    margin-left: 20px;
+   visibility: hidden;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.paragraf1, .paragraf2, .paragraf3, .paragraf4 {
+    width: 400px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+.paragraf {
+    color: white;
+  display:flex;
+    
+}
+.hyperlink {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.hyperlink a {
+    font-size: 11px;
+    color: rgb(82, 78, 78);
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+
+.footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer span {
+    justify-content: center;
+    font-size: 11px;
+    color: rgb(82, 78, 78);
+    text-decoration: none;
+    margin: 0px 10px;
+}
